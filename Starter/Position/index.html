@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position and Display</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="p-7 font-mono">
+    <h1 class="mb-3">1. Position</h1>
+    <div class="bg-green-200 p-4 w-1/2 my-4 relative h-60">
+      <p>Relative</p>
+      <div class="absolute p-4 bg-yellow-300 bottom-0 right-0">
+        Absolute Child
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div class="bg-red-200 p-4 w-1/2 my-4 relative h-60">
+      <p>Relative</p>
+      <div class="absolute p-4 bg-yellow-300 right-0 top-0">Absolute Child</div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+    <div class="bg-indigo-200 p-4 w-1/2 my-4 relative h-60">
+      <p>Relative</p>
+      <div class="absolute p-4 bg-yellow-300 top-0 left-0">Absolute Child</div>
+    </div>
+
+    <div class="bg-red-800 fixed bottom-10 right-10 w-6 h-10"></div>
+
+    <br />
+    <hr />
+    <br />
+
+    <h1>Display</h1>
+    <div class="container p-6 my-6 bg-yellow-400">
+      <p class="inline">This paragraph would display as inline</p>
+      <p class="block">This paragraph would display as a block level element</p>
+      <p class="inline-block">This paragraph would display as inline-block</p>
+      <p class="hidden">This paragraph is hidden</p>
+    </div>
+  </body>
+</html>
