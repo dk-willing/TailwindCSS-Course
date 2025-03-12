@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="p-6">
+    <h1>1. Contrast</h1>
+    <div class="my-4 p-4 border flex">
+      <img src="img-practice.jpg" class="w-[250px] h-[250px] contrast-50" />
+      <img src="img-practice.jpg" class="w-[250px] h-[250px] contrast-100" />
+      <!-- <img src="img-practice.jpg" class="w-[250px] h-[250px] contrast-125" /> -->
+      <img src="img-practice.jpg" class="w-[250px] h-[250px] contrast-150" />
+      <img src="img-practice.jpg" class="w-[250px] h-[250px] contrast-200" />
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <h1>2. Brightness</h1>
+    <div class="border my-4 p-4 flex">
+      <img src="brightness.jpg" class="w-[250px] h-[250px] brightness-50" />
+      <img src="brightness.jpg" class="w-[250px] h-[250px] brightness-100" />
+      <img
+        src="brightness.jpg"
+        class="w-[250px] h-[250px] brightness-150 invert"
+      />
+      <img
+        src="brightness.jpg"
+        class="w-[250px] h-[250px] brightness-200 sepia"
+      />
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <h1>3. Grayscale, Invert, Sepia</h1>
+    <div class="border my-4 p-4 flex">
+      <img src="grayscale.jpg" class="w-[250px] h-[250px]" />
+      <img src="grayscale.jpg" class="w-[250px] h-[250px] grayscale" />
+      <img src="grayscale.jpg" class="w-[250px] h-[250px] invert" />
+      <img src="grayscale.jpg" class="w-[250px] h-[250px] sepia" />
+    </div>
+
+    <br />
+    <hr />
+    <br />
+    <h1>4. Hue Rotate</h1>
+    <div class="flex border my-4 p-4">
+      <img src="brightness.jpg" class="w-[250px] h-[250px] hue-rotate-50" />
+      <img src="brightness.jpg" class="w-[250px] h-[250px] hue-rotate-15" />
+      <img src="brightness.jpg" class="w-[250px] h-[250px] hue-rotate-90" />
+      <img src="brightness.jpg" class="w-[250px] h-[250px] hue-rotate-180" />
+    </div>
+
+    <br />
+    <hr />
+    <br />
+    <h1>5. Blur</h1>
+    <div class="flex border my-4 p-4">
+      <img src="brightness.jpg" class="w-[250px] h-[250px] blur" />
+      <img src="brightness.jpg" class="w-[250px] h-[250px] blur-md" />
+      <img src="brightness.jpg" class="w-[250px] h-[250px] blur-lg" />
+      <img src="brightness.jpg" class="w-[250px] h-[250px] blur-3xl" />
+    </div>
+  </body>
+</html>
